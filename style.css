@@ -1,0 +1,15 @@
+.tooltip-content {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: none;
+}
+  
+.icon:hover + .tooltip-content {
+  display: block;
+}
+
+.tooltip {
+	position: relative;
+	top: -1360px; left: 350px;
+}
